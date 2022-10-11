@@ -2,12 +2,12 @@ version: '3'
 
 services:
   frontend:
-    build: frontend
+    image: jsun14/classapp:fv0
     ports:
       - 8501:8501
     depends_on:
       - backend
   backend:
-    build: backend
+    image: jsun14/classapp:v1
     ports:
       - 8000:8000

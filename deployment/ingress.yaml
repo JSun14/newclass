@@ -1,0 +1,12 @@
+ingress:
+  hosts:
+    - host: sentiment.k8s.com
+      paths: 
+        - path: /api/
+          backend:
+            serviceName: backend
+            servicePort: 8000
+        - path: /
+          backend:
+            serviceName: frontend
+            servicePort: 8501

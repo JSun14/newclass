@@ -1,0 +1,12 @@
+app:
+  name: sentiment-frontend
+  group: frontend
+  replicaCount: 1
+  container:
+    image: jsun14/classapp:fv0
+    port: 8501
+  config: []
+  env:
+  service:
+    type: ClusterIP
+    port: 8501

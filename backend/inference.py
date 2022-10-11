@@ -6,7 +6,6 @@ import tensorflow as tf
 from helper import get_sequences, REVERSE_LABEL_MAPPING
 import pickle
 import numpy as np
-import uvicorn
 
 
 def load_model(path):

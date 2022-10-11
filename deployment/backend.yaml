@@ -1,0 +1,12 @@
+app:
+  name: sentiment-backend
+  group: backend
+  replicaCount: 1
+  container:
+    image: jsun14/classapp:v1
+    port: 8080
+  config: []
+  env:
+  service:
+    type: ClusterIP
+    port: 8080
