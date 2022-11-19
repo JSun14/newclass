@@ -1,5 +1,5 @@
-import numpy as np
 from backend import helper
+import numpy as np
 
 
 def test_tokenizer():
@@ -64,4 +64,4 @@ def test_tokenizer():
                          0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
                          0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
                          0,  0,  0,  0,  0,  0,  0]])
-    assert np.array_equal(helper.get_sequences(sentence), tokened)
+    assert (helper.get_sequences(sentence) == tokened).all()
