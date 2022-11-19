@@ -1,6 +1,5 @@
 import numpy as np
 from backend import helper
-import pytest
 
 
 def test_tokenizer():
