@@ -1,0 +1,9 @@
+Keras
+Keras-Applications
+Keras-Preprocessing
+numpy
+pandas
+scikit-learn
+tensorflow-macos==2.9
+tensorflow-metal==0.5.0
+tokenizers
