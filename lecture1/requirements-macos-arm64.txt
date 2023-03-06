@@ -4,5 +4,6 @@ Keras-Preprocessing
 numpy
 pandas
 scikit-learn
-tensorflow
+tensorflow-macos==2.9
+tensorflow-metal==0.5.0
 tokenizers

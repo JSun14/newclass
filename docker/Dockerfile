@@ -1,5 +1,5 @@
-FROM python:3.8-slim-buster
-
+#build with --platform linux/arm64 or linux/amd64
+FROM python:latest
 RUN mkdir usr/app
 WORKDIR usr/app
 
