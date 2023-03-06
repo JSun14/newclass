@@ -1,3 +1,4 @@
+#build with --platform linux/arm64 or linux/amd64
 FROM python:latest
 RUN mkdir usr/app
 WORKDIR usr/app
